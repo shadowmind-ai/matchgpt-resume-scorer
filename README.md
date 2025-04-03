@@ -1,13 +1,20 @@
 <!-- Hero Banner -->
-<p align="center">
-  <img src="assets/matchgpt_hero.png" alt="MatchGPT Hero Banner" width="800"/>
+<p align="center" style="margin-bottom: 10px;">
+  <img src="assets/matchgpt_hero.png" alt="Visual overview: Resume + JD ➡️ GPT ➡️ Match Score" width="800"/>
 </p>
 
 <h1 align="center">MatchGPT 💼📊</h1>
-<h3 align="center">AI-Powered Resume & Job Description Scorer</h3>
+<h3 align="center">AI-Powered Resume & Job Description Scoring</h3>
 
 <p align="center">
   ✨ Score how well a resume fits a job description using GPT-powered analysis and structured insights.
+</p>
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Powered%20By-GPT4-blueviolet" alt="Powered by GPT-4"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Frontend-React-informational" alt="Frontend: React" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Backend-FastAPI-green" alt="Backend: FastAPI" /></a>
 </p>
 
 ---
@@ -24,8 +31,8 @@ Whether you're a job seeker, recruiter, or building hiring tools, MatchGPT helps
 
 > 🔄 Replace the GIF below with a short screen recording or animated walkthrough of MatchGPT in action.
 
-<p align="center">
-  <img src="assets/demo_scoring.gif" alt="MatchGPT Demo GIF" width="700"/>
+<p align="center" style="margin-bottom: 10px;">
+  <img src="assets/demo_scoring.gif" alt="Demo of MatchGPT scoring a resume against a job description" width="700"/>
 </p>
 
 ---
@@ -45,11 +52,11 @@ Whether you're a job seeker, recruiter, or building hiring tools, MatchGPT helps
 
 ## 🛠 How It Works
 
-<p align="center">
-  <img src="assets/how_it_works.png" alt="How MatchGPT Works" width="750"/>
+<p align="center" style="margin-bottom: 10px;">
+  <img src="assets/how_it_works.png" alt="Diagram of how MatchGPT processes resume and job description into a match score" width="750"/>
 </p>
 
-> 💡 _Suggestion for diagram:_
+> 💡 _Diagram flow:_
 >
 > - Resume Upload 📝
 > - Job Description 📄
