@@ -52,9 +52,11 @@ Whether you're a job seeker, recruiter, or building hiring tools, MatchGPT helps
 
 ## 🛠 How It Works
 
+<!--
 <p align="center" style="margin-bottom: 10px;">
   <img src="assets/how_it_works.png" alt="Diagram of how MatchGPT processes resume and job description into a match score" width="750"/>
 </p>
+-->
 
 > 💡 _Diagram flow:_
 >
@@ -87,3 +89,27 @@ Whether you're a job seeker, recruiter, or building hiring tools, MatchGPT helps
 git clone https://github.com/yourusername/matchgpt-resume-scorer.git
 cd matchgpt-resume-scorer
 ```
+
+### 🛠️ 2. Set Up the Backend
+
+```bash
+# Step into the backend directory
+cd backend
+
+# (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+# Install dependencies
+pip install fastapi uvicorn
+
+# Run the FastAPI server
+uvicorn app.main:app --reload
+```
+
+Test the health endpoint:  
+[http://localhost:8000/health](http://localhost:8000/health)  
+→ Expected response: `{"status": "ok"}`
+
+Open the Swagger UI:  
+[http://localhost:8000/docs](http://localhost:8000/docs)
